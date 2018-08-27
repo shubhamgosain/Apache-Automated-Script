@@ -1,0 +1,19 @@
+******************************	Run this script by only root user privileges	**********************************
+
+Run The script by (/bin/bash should be installed)
+bash apache.sh
+
+
+@@ Always Run this script in a Fresh terminal , because it will clear the screen :D
+
+
+@@ Always provide the entry of your virtual host in /etc/host or in your DNS server to name to IP conversion
+
+Syntax : your-ip-address virtual_hostname
+Example
+
+10.111.44.56 server1.example.com
+localhost server2.example.com
+
+
+
