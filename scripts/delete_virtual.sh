@@ -32,7 +32,9 @@ echo "0.----- Go Back"
      then	     
 	rm $web_path/${conf_files[$[web_conf_choice-1]]}
 	if [ $? -eq 0 ]
-	then echo "Deleted Successfully"
+	then 
+		echo "Deleted Successfully"
+		sudo systemctl reload apache2
 	else echo "Not Deleted"
 	fi
 fi
